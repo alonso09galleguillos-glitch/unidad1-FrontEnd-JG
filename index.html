@@ -2,29 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Club Deportivo</title>
+    <title>Login SportClub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Club Deportivo Pro</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Planes</a>
-            <a href="#">Reservas</a>
-        </nav>
-    </header>
+    <div class="container">
 
-    <main>
-        <section>
-            <h2>Bienvenido a nuestro club</h2>
-            <p>Entrena con los mejores profesionales.</p>
-        </section>
-    </main>
+        <div class="login-box">
 
-    <footer>
-        <p>© 2026 Club Deportivo</p>
-    </footer>
+            <div class="logo">
+                <img src="img/logo.png" alt="SportClub Logo">
+            </div>
+
+            <h2>Bienvenido</h2>
+
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ingresa tu correo" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
+
+                <button type="submit">Ingresar</button>
+            </form>
+
+            <div class="extra-links">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <span> | </span>
+                <a href="#">Registrarse</a>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
